@@ -1,0 +1,36 @@
+#hero {
+    position: relative;
+}
+
+#hero video {
+    height: 100vh;
+    width: 100%;
+    background-position: absolute;
+    z-index: 10;
+    object-fit: cover;
+}
+
+#hero .content1 {
+    background: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+
+.pb-2 {
+    padding-bottom: 2rem;
+}
+
+.vl {
+    border-left: 2px solid #656565;
+  }
+
